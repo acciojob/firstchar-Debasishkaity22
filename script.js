@@ -1,6 +1,7 @@
 function firstChar(text) {
   // your code here
-	if(text.length===0||(text.length===1 && text.charAt(0)===" ")) return "";
+	let ans="";
+	if(text.length===0||(text.length===1 && text.charAt(0)===" ")) return ans;
 	for(let i=0;i<text.length;){
 		if(text.charAt(i)===" "){
 			i++;
